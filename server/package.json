@@ -1,0 +1,22 @@
+{
+  "name": "spy-node",
+  "version": "0.0.0",
+  "description": "react application tool - node",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kayla Fitzsimmons",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
