@@ -4,7 +4,8 @@
   "description": "react application tool - node",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "dev": "docker-compose up"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "",
   "dependencies": {
-    "socket.io": "^1.7.3"
+    "socket.io": "^1.7.3",
+    "websocket": "^1.0.24",
+    "ws": "^2.1.0"
   }
 }

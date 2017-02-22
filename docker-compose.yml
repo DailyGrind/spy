@@ -3,8 +3,9 @@ services:
   web:
     image: node
     ports:
-    - "8081:3000"
+    - "8082:8080"
     working_dir: /server
     volumes:
-    - ./server:/server
-    command: "node ./index.js"
+    - ./lib:/server
+    - ./node_modules:/server/node_modules
+    command: "node /server/index.js"
