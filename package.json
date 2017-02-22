@@ -18,5 +18,8 @@
   "bugs": {
     "url": ""
   },
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
 }
