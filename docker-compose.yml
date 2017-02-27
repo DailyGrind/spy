@@ -8,4 +8,4 @@ services:
     volumes:
     - ./lib:/server
     - ./node_modules:/server/node_modules
-    command: "node /server/index.js"
+    command: "/server/node_modules/.bin/nodemon /server/index.js"
